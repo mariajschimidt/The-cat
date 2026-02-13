@@ -1,0 +1,92 @@
+/* Importando uma fonte fofa do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+    background-color: #e2f5ff; /* Azul pastel do fundo */
+    background-image: radial-gradient(#ffffff 2px, transparent 2px);
+    background-size: 30px 30px; /* Efeito de bolinhas/poá */
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40' style='font-size:24px'><text y='25'>🐾</text></svg>"), auto;
+}
+
+button, 
+input[type="text"], 
+button:hover, 
+.container * {
+    /* O !important garante que o estilo padrão do navegador seja sobrescrito */
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40' style='font-size:24px'><text y='25'>🐾</text></svg>"), pointer;
+}
+
+.container {
+    background-color: #fff9e6; /* Amarelo clarinho do card */
+    width: 90%;
+    max-width: 500px;
+    border: 6px solid #d9b99b; /* Borda marrom fofa */
+    border-radius: 40px;
+    padding: 20px;
+    box-shadow: 10px 10px 0px #b8e4ff; /* Sombra sólida estilo desenho */
+    text-align: center;
+}
+
+h1 {
+    color: #ff8fb1; /* Rosa vibrante */
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    border: 3px dashed #ffc0d3;
+    font-size: 1.8rem;
+}
+
+input[type="text"] {
+    border: 2px solid #ffc0d3;
+    border-radius: 15px;
+    padding: 10px;
+    width: 70%;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+button {
+    background-color: #b8e4ff;
+    border: 2px solid #89cff0;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: #555;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: #ffc0d3;
+    border-color: #ff8fb1;
+}
+
+.imagem_gato {
+    max-width: 100%;
+    border-radius: 25px;
+    border: 8px solid #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+p {
+    color: #777;
+    font-weight: bold;
+    background: #fff;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+hr {
+    border: 0;
+    border-top: 3px dotted #d9b99b;
+    margin: 20px 0;
+}
